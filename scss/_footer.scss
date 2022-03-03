@@ -1,0 +1,15 @@
+
+/* FOOTER*/
+
+footer{
+    background-color: color('bgcolor-secundario') ;
+    .imagen_footer{
+      border: bordes('borde-link-redes');
+      border-radius: 50px;
+      overflow: hidden;
+      &:hover{
+        width: 35%;
+      }
+    }
+  }
+  
