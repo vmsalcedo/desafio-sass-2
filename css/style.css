@@ -18,7 +18,8 @@
 
 /* FOOTER*/
 footer {
-  background-color: #891294;
+  /* map-get*/
+  background-color: #0c900c;
 }
 footer .imagen_footer {
   border: bordes("borde-link-redes");

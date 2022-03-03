@@ -2,7 +2,9 @@
 /* FOOTER*/
 
 footer{
-    background-color: color('bgcolor-secundario') ;
+
+    /* map-get*/
+    background-color: map-get($map: $paletacolores, $key: 'bgcolor' ) ;
     .imagen_footer{
       border: bordes('borde-link-redes');
       border-radius: 50px;
